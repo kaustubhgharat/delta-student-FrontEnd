@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Listings from "./views/listings/listings";
+import Listings from "./views/listings/Listings";
 import Show from "./views/listings/Show";
 import New from "./views/listings/New";
 import Edit from "./views/listings/Edit"
