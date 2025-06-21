@@ -15,6 +15,7 @@ import { faFire, faBed, faMountainCity, faMountain, faPersonSwimming,faTents,faT
 export default function Listings() {
     const [alllistings, setAllListings] = useState([]);
     const URL = import.meta.env.VITE_BACKEND_URL;
+console.log("Backend URL:", import.meta.env.VITE_BACKEND_URL);
 
 
     useEffect(() => {
