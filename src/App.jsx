@@ -6,7 +6,7 @@ import Edit from "./views/listings/Edit"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import NotFound from "./util/Notfound";
-import Signup from "./views/users/signup";
+import Signup from "./views/users/Signup"; // ✅ Match case exactly
 import Login from "./views/users/Login";
 
 export default function App() {
