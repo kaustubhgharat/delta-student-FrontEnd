@@ -8,6 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import NotFound from "./util/Notfound";
 import Signup from "./views/users/Signup"; // ✅ Match case exactly
 import Login from "./views/users/Login";
+console.log("ENV:", import.meta.env.VITE_BACKEND_URL);
 
 export default function App() {
   return (
@@ -19,7 +20,6 @@ export default function App() {
         <Route path="/listings/:id/edit" element={<Edit />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-
 
 
         <Route path="*" element={<NotFound />} />
