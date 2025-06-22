@@ -1,3 +1,5 @@
+lint = https://delta-student-frontend.onrender.com/listings
+
 <<<<<<< HEAD
 # delta-student-FrontEnd
 =======
