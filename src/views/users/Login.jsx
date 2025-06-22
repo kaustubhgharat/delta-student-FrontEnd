@@ -18,15 +18,19 @@ export default function Login() {
             setServerError(errorMsg);
         }
     }, [location]);
+    
     const onSubmit = async (data) => {
         try {
             const res = await fetch(`${URL}/login`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data),
-                credentials: 'include' // ✅ add this
+                credentials: 'include' // ✅ keep this
             });
 
+            // ✅ Log here safely
+            console.log("Response headers:", [...res.headers.entries()]);
+            console.log("Document cookies:", document.cookie);
 
             if (res.ok) {
                 const result = await res.json();
@@ -36,12 +40,10 @@ export default function Login() {
                 const redirectPath = localStorage.getItem('redirectAfterLogin') || '/listings';
                 navigate(redirectPath);
                 localStorage.removeItem('redirectAfterLogin');
-
             } else {
                 const result = await res.json();
                 setServerError(result.error || "Login failed");
                 console.log(result);
-
             }
         } catch (err) {
             console.error("Login error:", err);
