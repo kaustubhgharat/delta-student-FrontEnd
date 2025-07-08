@@ -37,7 +37,7 @@ Wanderlust is a full-stack Airbnb-inspired web application built using the MERN 
 
 ## 🔗 Live Demo
 
-🌐 Frontend: https://delta-student-frontend.onrender.com 
+🌐 Frontend: https://delta-student-frontend.onrender.com/listings
 📡 Backend: https://delta-student-h0qn.onrender.com
 
 > Replace these with your actual deployed links.
