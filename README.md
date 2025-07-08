@@ -78,30 +78,6 @@ git clone https://github.com/kaustubhgharat/delta-student.git
 git clone https://github.com/kaustubhgharat/delta-student-FrontEnd.git
 --------------------------------------------------
 
-2. Install dependencies:
---------------------------------------------------
-# Backend
-npm install
-
-# Frontend
-cd ./Delta
-npm install
---------------------------------------------------
-
-3. Create .env file in the root of backend:
---------------------------------------------------
-# .env
-CLOUD_NAME=your_cloudinary_name
-CLOUD_API_KEY=your_cloudinary_api_key
-CLOUD_API_SECRET=your_cloudinary_api_secret
-ATLASBD_URL=your_mongodb_connection_string
---------------------------------------------------
-
-4. Run the application:
---------------------------------------------------
-# Start backend
-node app.js
-
 # In a new terminal, start frontend
 cd ./Delta
 npm run dev
