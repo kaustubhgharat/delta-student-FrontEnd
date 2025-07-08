@@ -77,7 +77,7 @@ git clone https://github.com/kaustubhgharat/delta-student-FrontEnd.git
 
 2. Start the Backend
 
-# Open a new terminal
+Open a new terminal
 cd delta-student
 npm install
 npm install express --save
@@ -88,7 +88,7 @@ nodemon app.js
 
 3. Start the Frontend
 
-# Open another terminal
+Open another terminal
 cd delta-student-FrontEnd
 cd ./Delta
 npm install
