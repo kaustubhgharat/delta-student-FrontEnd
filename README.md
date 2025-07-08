@@ -1,18 +1,111 @@
-lint = https://delta-student-frontend.onrender.com/listings
+# 🏡 Wanderlust - Airbnb Clone
 
-<<<<<<< HEAD
-# delta-student-FrontEnd
-=======
-# React + Vite
+Wanderlust is a full-stack Airbnb-inspired web application built using the MERN stack. It allows users to browse, list, and book vacation rentals with modern UI, authentication, and persistent data storage.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A responsive, production-ready clone of Airbnb featuring user authentication, property management, and real-time booking interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Authentication** – Sign up, log in, log out 
+- 🏠 **Property Listings** – Add, edit, delete your properties
+- 📅 **Booking System** – Book available properties
+- 📷 **Image Uploads** – Upload and manage listing images
+- 🧑‍💻 **Role-Based Access** – Owner vs guest functionality
+- 🎨 **Responsive UI** – Built with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 3940e32 (ini)
+---
+
+## 🧰 Tech Stack
+
+**Frontend**:
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css)
+
+**Backend**:
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb)
+
+**Other**:
+- Cloudinary or local image upload
+- Render for deployment
+- MongoDB Atlas for DB hosting
+
+---
+
+## 🔗 Live Demo
+
+🌐 Frontend: https://delta-student-frontend.onrender.com 
+📡 Backend: https://delta-student-h0qn.onrender.com
+
+> Replace these with your actual deployed links.
+
+---
+
+## 🖼️ Screenshots
+
+### Home Page
+![Home](./assets/homepage.png)
+
+### Listing Page
+![Listing](./assets/listing.png)
+
+### Add New Property
+![Add Property](./assets/addproperty.png)
+
+> Put your actual screenshots in `/assets` folder and link them here.
+
+---
+
+
+🚀 Getting Started
+
+📋 Prerequisites
+- Node.js installed (v18+ recommended)
+- MongoDB (local or Atlas)
+- Cloudinary account
+
+💻 Installation
+
+1. Clone the repositories:
+--------------------------------------------------
+# Backend
+git clone https://github.com/kaustubhgharat/delta-student.git
+
+# Frontend
+git clone https://github.com/kaustubhgharat/delta-student-FrontEnd.git
+--------------------------------------------------
+
+2. Install dependencies:
+--------------------------------------------------
+# Backend
+npm install
+
+# Frontend
+cd ./Delta
+npm install
+--------------------------------------------------
+
+3. Create .env file in the root of backend:
+--------------------------------------------------
+# .env
+CLOUD_NAME=your_cloudinary_name
+CLOUD_API_KEY=your_cloudinary_api_key
+CLOUD_API_SECRET=your_cloudinary_api_secret
+ATLASBD_URL=your_mongodb_connection_string
+--------------------------------------------------
+
+4. Run the application:
+--------------------------------------------------
+# Start backend
+node app.js
+
+# In a new terminal, start frontend
+cd ./Delta
+npm run dev
+--------------------------------------------------
+
+5. Open in browser:
+http://localhost:5173
