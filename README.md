@@ -48,7 +48,7 @@ Wanderlust is a full-stack Airbnb-inspired web application built using the MERN 
 
 
 ### Listing Page
-![Listing](./assets/listing.png)
+![Listing](./assets/homepage.png)
 
 
 > Put your actual screenshots in `/assets` folder and link them here.
